@@ -1,0 +1,31 @@
+.mec-parallax{
+	background-color: rgba(0,0,0,1);
+	background-image: url(../assets/img/parallax.jpg);
+	height: 420px;
+	width: 110%; 
+}
+.mec-wrapper{
+	background-color: red;
+	margin-top: -350px;
+}
+.mec-profile{
+	background-color: grey;
+	height: 500px;
+	float: left;
+}
+.mec-picture{
+	height: 300px;
+}
+
+
+
+.mec-tabContainer{
+	background-color: blue;
+	height: 500px;
+}
+.mec-navbar{
+	background-color: green;
+}
+.mec-mainpage{
+	background-color: yellow;
+}
