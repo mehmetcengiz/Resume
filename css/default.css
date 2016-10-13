@@ -1,13 +1,6 @@
-a{
-    margin: 0;
-    padding: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
-    text-decoration: none  !important;
+.fa{
+	color:black;
 }
-
-
 .mec-parallax{
 	background-color: rgba(0,0,0,1);
 	background-image: url(../assets/img/parallax.jpg);
@@ -15,7 +8,7 @@ a{
 	width: 110%; 
 }
 .mec-wrapper-col{
-	margin-top: -355px;
+	margin-top: -355.2px;
 }
 .mec-profile-col{
 	height: 500px;
@@ -25,32 +18,84 @@ a{
 }
 
 .mec-tab-container{
-	background-color: blue;
 	height: 500px;
 }
 .mec-navbar-row{
-	background-color: green;
+	background-color: #fff;
 	min-height: 80px;
 }
-.mec-navbar-ul{
-	list-style: none;
-	background:#fff;
+.nav-a{
+	border-radius: 0px !important; 
+    padding: 30px 30px !important;
+
 }
-.mec-navbar-ul li{
-	display: inline-block;
-	background-color: pink;		
-	width: 125px;
-	height: 77px;
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+    color: #fff !important;
+	/*background-color:  rgb(219, 10, 91) !important;*/
+	background-color: #fff !important;
 }
-.mec-navbar-ul li a{
-	display: block ;
-	color: #000;
+.nav-pills li a span{
+	padding-left: 7px;
+	color:black;
 }
 
-.mec-navbar-ul li a span{
-	display: block ;
-	color: #000;
-}
 .mec-mainpage-row{
-	background-color: yellow;
+	background-color: #fff;
+	height: 500px;
+	margin-top: 30px;
+	-webkit-box-shadow: 15px 17px 40px 0px rgba(235,235,235,1);
+	-moz-box-shadow: 15px 17px 40px 0px rgba(235,235,235,1);
+	box-shadow: 15px 17px 40px 0px rgba(235,235,235,1);
 }
+.mec-profile-text{
+	font-weight: 900;
+	margin-top: 1.2vw;
+	font-size: 1.5vw;
+}
+.mec-profile-subtext{
+	margin-top: 0.7vw;
+	font-size:0.9vw;
+	color:#b2b2b2;
+	margin-bottom: 1.5vw;
+}
+.mec-profile-info{
+    border-bottom: 1px dashed #cccccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 	 }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {			 }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {			}
+
+@media (max-width: @screen-xs-max) { 
+
+ }
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+
+  }
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+
+ }
+@media (min-width: @screen-lg-min) {
+
+ }
