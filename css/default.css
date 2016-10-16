@@ -1,65 +1,11 @@
-.fa{
-	color:black;
+.mec-backimg{
+    background-image: url("../assets/img/parallax.jpg");
 }
-.mec-parallax{
-	background-color: rgba(0,0,0,1);
-	background-image: url(../assets/img/parallax.jpg);
-	height: 420px;
-	width: 110%; 
+a{
+    color:black !important;
 }
-.mec-wrapper-col{
-	margin-top: -355.2px;
-}
-.mec-profile-col{
-	height: 500px;
-	float: left;
-}
-.mec-picture{
-}
-
-.mec-tab-container{
-	height: 500px;
-}
-.mec-navbar-row{
-	background-color: #fff;
-	min-height: 80px;
-}
-.nav-a{
-	border-radius: 0px !important; 
-    padding: 30px 30px !important;
-
-}
-.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
-    color: #fff !important;
-	/*background-color:  rgb(219, 10, 91) !important;*/
-	background-color: #fff !important;
-}
-.nav-pills li a span{
-	padding-left: 7px;
-	color:black;
-}
-
-.mec-mainpage-row{
-	background-color: #fff;
-	height: 500px;
-	margin-top: 30px;
-	-webkit-box-shadow: 15px 17px 40px 0px rgba(235,235,235,1);
-	-moz-box-shadow: 15px 17px 40px 0px rgba(235,235,235,1);
-	box-shadow: 15px 17px 40px 0px rgba(235,235,235,1);
-}
-.mec-profile-text{
-	font-weight: 900;
-	margin-top: 1.2vw;
-	font-size: 1.5vw;
-}
-.mec-profile-subtext{
-	margin-top: 0.7vw;
-	font-size:0.9vw;
-	color:#b2b2b2;
-	margin-bottom: 1.5vw;
-}
-.mec-profile-info{
-    border-bottom: 1px dashed #cccccc;
+html{
+    background-color: grey;
 }
 
 
@@ -69,33 +15,75 @@
 
 
 
+/*Phone*/
+@media (max-width: 480px) {
+    .mec-parallax{
+        height: 100px;
+    }
+    .mec-backimg{
+
+    }
+}
+/*Phone to Tab*/
+@media (min-width: 481px) and (max-width: 767px) { 
+    .mec-backimg{
+        height: 100px;
+    }
+} 
+/*Tablet*/
+@media (min-width: 767px) and (max-width: 991px) { 
+    .mec-backimg{
+        height: 100px;
+    }
+}  
+/*Desktop smaller screen*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .mec-backimg{
+        height: 400px;
+    }
+}
+/*Desktop bigger screen*/
+@media (min-width: 1200px) { 
+    /*TODO Keep going from there*/
+    h1{
+        font-size: 2em;
+    }
 
 
 
 
+    .mec-backimg{
+        height: 400px;
+    }
+    .mec-profile-nav{
+        margin-top: -300px;
+    }
 
+    .mec-profile img{
+        height: 300px;
+    }
+    .mec-nav-col{
+        background-color: white;
+        height:  80px;
+        padding-top:30px;
+    }
+    .mec-nav-col nav a{
+        margin-right: 20px;
+        padding-bottom: 25px;
+    }
 
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
+    .mec-nav-col nav a span{
+        padding-left: 10px;
+    }
+    .active{
+        color:#CC3366 !important;
+        margin-top: 10px;
+        border-bottom: 2px solid !important;
+    }
+    .mec-mainpage{
+        height: 2000px;
+        background-color: white;
+        margin-top: 70px;
+    }
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { 	 }
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) {			 }
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) {			}
-
-@media (max-width: @screen-xs-max) { 
-
- }
-@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
-
-  }
-@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
-
- }
-@media (min-width: @screen-lg-min) {
-
- }
+}
