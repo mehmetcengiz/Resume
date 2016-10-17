@@ -1,16 +1,21 @@
-.mec-backimg{
-    background-image: url("../assets/img/parallax.jpg");
-}
+
 a{
     color:black !important;
 }
-html{
-    background-color: grey;
+
+/*Variabiles*/
+/*element{
+    --main-sec-color:#CC3366;
+}*/
+
+
+.mec-backimg{
+    background-image: url("../assets/img/parallax.jpg");
 }
 
-
-
-
+.mec-about-me h1{
+    color:#CC3366;
+}
 
 
 
@@ -44,46 +49,115 @@ html{
 }
 /*Desktop bigger screen*/
 @media (min-width: 1200px) { 
-    /*TODO Keep going from there*/
+    /*General*/
     h1{
-        font-size: 2em;
+        font-size:2em !important;
+        font-weight: 700;
     }
-
-
-
-
+    h2{
+        font-size: 1.7em !important;
+    }
+    
+    /*Background Image*/
     .mec-backimg{
-        height: 400px;
+        height: 480px;
     }
+    /*Navbar And Profile*/
     .mec-profile-nav{
-        margin-top: -300px;
+        margin-top: -400px;
     }
 
     .mec-profile img{
-        height: 300px;
+        height: 400px;
+        width: 259px;
     }
-    .mec-nav-col{
+    /*Profile*/
+    .mec-profile-info{
+        /*border:1px solid black;*/
+        -webkit-box-shadow: 0px 23px 56px 0px rgba(212,212,212,1);
+        -moz-box-shadow: 0px 23px 56px 0px rgba(212,212,212,1);
+        box-shadow: 0px 23px 56px 0px rgba(212,212,212,1);
+    }
+    .mec-profile-name{
+        margin-top: 20px;
+    }
+
+    .mec-profile-name h2{
+        font-weight: 900;
+
+    }
+    .mec-profile-subname{
+        margin-top: 10px;
+    }
+
+    .mec-profile-subname h3{
+        font-size: 1.2em !important;
+        color:#727272;
+    }
+    .mec-social{
+        border-top: 1px dashed #727272;
+        margin-top: 20px;
+        height: 40px;
+    }
+    .mec-social div{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .mec-social-icons{
+        margin-left:10px;
+        border:2px solid black;
+        border-radius: 100%;
+    }
+    .mec-social-icons i {
+        width: 25px;
+        height: 25px;
+    }
+
+
+
+    /*Navbar And Main*/
+    .mec-navmain-col{
         background-color: white;
         height:  80px;
         padding-top:30px;
     }
-    .mec-nav-col nav a{
-        margin-right: 20px;
-        padding-bottom: 25px;
+    .mec-navmain-col nav a{
+        padding-right: 20px;
+        padding-bottom: 30px;
+        padding-top: 29px;
+        padding-left: 20px;
+        border-right: 1px dashed #bababa ;
     }
-
-    .mec-nav-col nav a span{
+    .mec-navmain-col nav a span{
         padding-left: 10px;
     }
+
+    /*Navbar*/
+    .mec-nav-col{
+        padding-left: 0px !important;
+    }
+
+
     .active{
         color:#CC3366 !important;
-        margin-top: 10px;
-        border-bottom: 2px solid !important;
+        margin-top: 12px;
+        border-bottom: 3px solid !important;
     }
+    /*Main Page*/
+
     .mec-mainpage{
-        height: 2000px;
+        height: 1000px;
         background-color: white;
         margin-top: 70px;
+        -webkit-box-shadow: 0px 295px 56px 0px rgba(212,212,212,1);
+        -moz-box-shadow: 0px 295px 56px 0px rgba(212,212,212,1);
+        box-shadow: 0px 295px 56px 0px rgba(212,212,212,1);
+    }
+    .mec-main-top-padding{
+        padding-top: 40px;
+    }
+    .mec-hr{
+        border-bottom:1px dashed #bababa;
     }
 
 }
