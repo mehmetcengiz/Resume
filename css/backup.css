@@ -1,0 +1,121 @@
+ /*General*/
+    h1{
+        font-size:2em !important;
+        font-weight: 700;
+    }
+    h2{
+        font-size: 1.7em !important;
+    }
+    .navbar-default{
+        background-color: #fff !important;
+        border-color: #fff !important;
+    }
+    .navbar{
+        border-radius: 0 !important;
+    }
+    /*Background Image*/
+    .mec-backimg{
+        height: 480px;
+    }
+    /*Navbar And Profile*/
+    .mec-profile-nav{
+        margin-top: -400px;
+    }
+
+    .mec-profile img{
+        height: 400px;
+    }
+    /*Profile*/
+    .mec-profile-info{
+        /*border:1px solid black;*/
+        -webkit-box-shadow: 0px 23px 56px 0px rgba(212,212,212,1);
+        -moz-box-shadow: 0px 23px 56px 0px rgba(212,212,212,1);
+        box-shadow: 0px 23px 56px 0px rgba(212,212,212,1);
+    }
+
+    /*Profile Social Icons*/
+    .social-icons{
+        border:1px solid black;
+    }
+
+
+
+    .mec-profile-name{
+        margin-top: 20px;
+    }
+
+    .mec-profile-name h2{
+        font-weight: 900;
+
+    }
+    .mec-profile-subname{
+        margin-top: 10px;
+    }
+
+    .mec-profile-subname h3{
+        font-size: 1.2em !important;
+        color:#727272;
+    }
+    .mec-social{
+        border-top: 1px dashed #727272;
+        margin-top: 20px;
+        height: 40px;
+    }
+    .mec-social div{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .mec-social-icons{
+        margin-left:10px;
+        border:2px solid black;
+        border-radius: 100%;
+    }
+    .mec-social-icons i {
+        width: 25px;
+        height: 25px;
+    }
+
+
+
+    /*Navbar And Main*/
+/*    .mec-navmain-col{
+        background-color: white;
+        height:  80px;
+        padding-top:30px;
+    }
+    .mec-navmain-col nav a{
+        padding-right: 20px;
+        padding-bottom: 30px;
+        padding-top: 29px;
+        padding-left: 20px;
+        border-right: 1px dashed #bababa ;
+    }
+    .mec-navmain-col nav a span{
+        padding-left: 10px;
+        font-size: 14px;
+    }*/
+
+    /*Navbar*/
+
+    .active{
+        color:#CC3366 !important;
+        margin-top: 12px;
+        border-bottom: 3px solid !important;
+    }
+    /*Main Page*/
+
+    .mec-mainpage{
+        height: 1000px;
+        background-color: white;
+        -webkit-box-shadow: 0px 295px 56px 0px rgba(212,212,212,1);
+        -moz-box-shadow: 0px 295px 56px 0px rgba(212,212,212,1);
+        box-shadow: 0px 295px 56px 0px rgba(212,212,212,1);
+    }
+    .mec-main-top-padding{
+        padding-top: 40px;
+    }
+    .mec-hr{
+        border-bottom:1px dashed #bababa;
+    }
+
+}
